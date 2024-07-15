@@ -17,7 +17,6 @@ export const TaskAttachmentsModal = ({ taskId, show, onHide }) => {
         setLoading(false);
       } catch (error) {
         console.error('Error fetching attachments:', error);
-        // Handle error or show error message
       }
     };
 
